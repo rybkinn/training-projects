@@ -1,0 +1,6 @@
+X = int(input())
+a = int(X // 60)
+b = int(a * 60)
+c = int(X - b)
+print(a)
+print(c)
