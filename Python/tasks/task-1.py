@@ -10,8 +10,7 @@ class MyClass:
         self.string = string
 
     def replacement_space(self):
-        self.string = self.string.strip()
-        self.string = self.string.replace(' ', '%20')
+        self.string = self.string.strip().replace(' ', '%20')
 
 
 p1 = MyClass('  ch e ck   ')
