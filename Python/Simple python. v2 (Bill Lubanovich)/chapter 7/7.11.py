@@ -32,4 +32,8 @@ rhymes = [
 ]
 start2 = "Someone better"
 
-
+for el_rhymes in rhymes:
+    for el_start1 in start1:
+        print(el_start1.capitalize(), end='! ')
+    print(el_rhymes[0].capitalize(), end='!\n')
+    print(start2 + ' ' + el_rhymes[1], end='.\n\n')
