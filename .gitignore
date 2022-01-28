@@ -2,5 +2,7 @@
 /shelf/
 /workspace.xml
 /venv/
+/linux_venv/
 /.idea/
 *.pyc
+.vscode
